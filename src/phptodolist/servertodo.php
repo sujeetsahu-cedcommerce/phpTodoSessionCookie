@@ -17,7 +17,7 @@ if(!isset($_SESSION['completed'])){
     $_SESSION['completed']=array();
 }
 
-
+// creating a function
 function display(){
     for($i=0;$i<count($_SESSION['todo']);$i++)
     {
